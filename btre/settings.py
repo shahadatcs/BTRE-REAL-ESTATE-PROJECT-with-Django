@@ -139,6 +139,21 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS ={
     messages.ERROR: 'danger'
 }
+
+
+# Email confiq
+#EMAIL_USE_TLS = True  
+#EMAIL_HOST = 'smtp.gmail.com'  
+#EMAIL_PORT = 587  
+#EMAIL_HOST_USER = ' '  
+#EMAIL_HOST_PASSWORD = ' '  
+
+#try:
+  #  from .local_settings import *
+#except ImportError:
+#    pass
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
